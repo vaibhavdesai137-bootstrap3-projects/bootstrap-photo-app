@@ -105,7 +105,9 @@ footer p {
 /* MEDIA */
 
 @media(max-width: 1200px) {
-
+    .showcase-img {
+        display: none;
+    }
 }
 
 @media(max-width: 900px) {
@@ -119,6 +121,7 @@ footer p {
     .jumbotron {
         height: 400px;
         background-size: 100% 100%;
+        background-image: none;
     }
 
     .jumbotron h1 {
@@ -135,6 +138,7 @@ footer p {
     .jumbotron {
         height: 300px;
         background-size: 100% 100%;
+        background-image: none;
     }
 
     .jumbotron h1 {
