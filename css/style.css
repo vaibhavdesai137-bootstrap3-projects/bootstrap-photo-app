@@ -83,33 +83,6 @@ section#titlebar h1 {
     margin-bottom: 20px;
 }
 
-footer {
-    background: #333;
-    color: white;
-    padding: 30px 0 20px 0;
-    height: 80px;
-}
-
-footer li {
-    float: left;
-    list-style: none;
-    padding: 0 20px 0 10px;
-}
-
-footer a {
-    color: white;
-}
-
-footer a:hover {
-    color: yellow !important
-}
-
-footer p {
-    font-size: 18px;
-    float: right;
-    vertical-align: middle;
-}
-
 /* MEDIA */
 
 @media(max-width: 1200px) {
@@ -171,20 +144,6 @@ footer p {
 
     section#feature ul li {
         font-size: 16px;
-    }
-
-    footer ul li {
-        float: middle;
-        text-align: center;
-        vertical-align: center;
-        padding: 0 10px 0 10px;
-    }
-
-    footer p {
-        font-size: 14px;
-        float: none;
-        text-align: center;
-        padding-top: 10px;
     }
 
     div#foo1 {
